@@ -83,7 +83,7 @@ header .navbar ul {
   padding: 0 30px;
   transition: 0.5;
 }
-.navbar ul a {
+.navbar-nav a {
   text-decoration: none;
   margin: 20px;
   color: var(--font-color);
@@ -103,7 +103,7 @@ header .navbar ul {
   -moz-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-.navbar ul a:hover {
+.navbar-nav a:hover {
   background: var(--border-color);
   box-shadow: 0 0 30px 5px var(--border-color);
   -webkit-transition: all 0.2s ease-out;
@@ -111,13 +111,13 @@ header .navbar ul {
   transition: all 0.2s ease-out;
 }
 
-.navbar ul a:hover::before {
+.navbar-nav a:hover::before {
   -webkit-animation: sh02 0.5s 0s linear;
   -moz-animation: sh02 0.5s 0s linear;
   animation: sh02 0.5s 0s linear;
 }
 
-.navbar ul a::before {
+.navbar-nav a::before {
   content: "";
   display: block;
   width: 0px;
@@ -151,7 +151,7 @@ header .navbar ul {
   }
 }
 
-.navbar ul a:active {
+.navbar-nav a:active {
   box-shadow: var(--border-color) 0 0 5px;
   -webkit-transition: box-shadow 0.2s ease-in;
   -moz-transition: box-shadow 0.2s ease-in;
