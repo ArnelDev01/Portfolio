@@ -158,13 +158,14 @@ header .navbar ul {
   transition: box-shadow 0.2s ease-in;
 }
 
-/* about me style */
+/* landing page style */
+
 #landing {
   display: flex;
-  margin: 5% 10% 15% 0;
+  margin: 0 10% 15% 0;
 }
 hr {
-  margin: 0 15% 0 15%;
+  margin: 20px 10% 20px 10%;
   border: var(--border-color) 2px solid;
   box-shadow: rgb(3, 250, 3) 0px 8px 10px;
 }
@@ -182,13 +183,18 @@ h1 {
   text-decoration: none;
   text-shadow: var(--border-color) 0 0 6px;
 }
-#landing p {
+.landing-section {
+  display: flex;
+  margin: auto;
+}
+.landing-section p {
   color: white;
   margin: 20px 500px 0 15%;
-  font-size: 20px;
+  font-size: 25px;
   text-align-last: left;
 }
 #landing .picture img {
+  width: 450px;
   margin-right: 25%;
   text-align: left;
   border-radius: 40%;
@@ -352,32 +358,26 @@ button:hover .button-text {
     transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
   }
 }
+#about {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+#about .row {
+  margin: 30px 15% 0 20%;
+}
 
-.about {
-  display: flex;
-}
-.about-me {
-  display: flex;
-}
 .about p {
   color: white;
   font-size: 25px;
   padding: 20px;
   text-shadow: var(--shadow-color) 0 0 2px;
 }
-.about-me {
-  text-align: center;
-  margin: 10% 5% 0 0;
+.card-about {
+  box-shadow: var(--border-color) 3px 3px 5px;
+  border-radius: 20%;
+  padding: 30px;
 }
 
-.about-me1 {
-  margin: 10px;
-  width: 45%;
-  height: 50vh;
-  box-shadow: var(--border-color) 15px 0 5px;
-  border-radius: 30px 60px;
-  text-align: left;
-}
 .container {
   color: #fff;
 }
