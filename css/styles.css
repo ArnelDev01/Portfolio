@@ -15,7 +15,13 @@ html {
   --font-color: rgb(182, 165, 165);
 }
 body {
-  background: var(--background-color);
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 57, 68, 1) 90%,
+    rgba(28, 92, 126, 1) 100%
+  );
 }
 
 /* header style */
@@ -380,8 +386,6 @@ button:hover .button-text {
 
 .container {
   color: #fff;
-}
-.container {
   margin: 5% 0 0 25%;
 }
 .col {
